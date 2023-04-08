@@ -8,6 +8,7 @@
               Deploy / monitor infrastructure and applications
             </h1>
             <svg
+              id="hero-stroke"
               class="my-5"
               width="487"
               height="34"
