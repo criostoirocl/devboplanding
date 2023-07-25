@@ -3,37 +3,37 @@
     <section class="pb-5 bg-hero">
       <b-container class="pt-5">
         <b-row>
-          <b-col cols="12" lg="6" md="6" sm="12">
-            <h1>
-              Deploy / monitor infrastructure and applications
+          <b-col cols="12" lg="12" md="12" sm="12">
+            <h1 class="text-center">
+              Deploy applications and CI/CD into AWS in minutes
             </h1>
-            <svg
-              id="hero-stroke"
-              class="my-5"
-              width="487"
-              height="34"
-              viewBox="0 0 487 34"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M4 30C73.6307 10.3798 266.914 -17.0885 483 30"
-                stroke="#54BD95"
-                stroke-width="8"
-                stroke-linecap="round"
-              />
-            </svg>
+<!--            <svg-->
+<!--              id="hero-stroke"-->
+<!--              class="my-5"-->
+<!--              width="487"-->
+<!--              height="34"-->
+<!--              viewBox="0 0 487 34"-->
+<!--              fill="none"-->
+<!--              xmlns="http://www.w3.org/2000/svg"-->
+<!--            >-->
+<!--              <path-->
+<!--                d="M4 30C73.6307 10.3798 266.914 -17.0885 483 30"-->
+<!--                stroke="#54BD95"-->
+<!--                stroke-width="8"-->
+<!--                stroke-linecap="round"-->
+<!--              />-->
+<!--            </svg>-->
 
-            <p class="hero-description">
-              Do you find DevOps daunting? Do you know what results you want but not how to execute it properly? DevBop gives you a simple, unified dashboard that lets you deploy and monitor application infrastructure in your AWS account with a CI/CD pipeline in a matter of minutes.
+            <p class="hero-description text-center">
+              Streamline your application deployment. Deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.
             </p>
           </b-col>
           <br class="d-none d-sm-block" />
-          <b-col cols="12" lg="6" md="6" sm="12" class="text-center">
+          <b-col cols="12" lg="12" md="12" sm="12" class="text-center">
             <b-img
               alt="hero image"
               class="img-fluid"
-              :src="require(`~/assets/img/features/daily_analytics.png`)"
+              :src="require(`~/assets/img/screenshots/wizard001.png`)"
             ></b-img>
           </b-col>
           <b-col cols="12" lg="12" md="12" sm="12" class="d-flex flex-column mt-5">
@@ -49,10 +49,10 @@
       <b-container>
         <b-row>
           <b-col cols="12" lg="6" md="6" sm="12">
-            <h2>Take the mystery out of DevOps</h2>
-            <div class="my-5">
+            <h2>Simplify deploying applications into AWS</h2>
+            <div class="my-3">
               <p class="text-muted">
-
+                Set up infrastructure in your AWS account and CI/CD pipelines in a matter of minutes.
               </p>
             </div>
             <div class="d-flexd d-none flex-row">
@@ -200,7 +200,7 @@
                 <div>
                   <h5>Deploy</h5>
                   <p class="text-muted">
-                    Deploy infrastructure and code updates from our dashboard
+                    Effortlessly deploy infrastructure and code updates. Our platform is designed to streamline your workflow, allowing you to push updates with just a few clicks. Plus, with real-time monitoring features, you can keep track of your deployments and ensure everything runs smoothly.
                   </p>
                 </div>
               </div>
@@ -275,11 +275,11 @@
                 <div>
                   <h5>Time</h5>
                   <p class="text-muted">
-                    Spend less time managing AWS resources
+                    Maximize your productivity by spending less time managing AWS resources. Experience the efficiency of streamlined cloud management, and let our platform handle the complexities of AWS resources for you.
                   </p>
                 </div>
               </div>
-              <div class="d-flex flex-row">
+              <div class="d-flexss flex-row d-none">
                 <div class="d-fle align-items-start">
                   <svg
                     width="78"
@@ -352,8 +352,8 @@
         </b-row>
       </b-container>
     </section>
-    <section>
-      <b-container class="pt-5 mt-5">
+    <section class="bg-green-light d-none">
+      <b-container class="pt-5">
         <b-row>
           <b-col cols="12" md="4" lg="4" sm="12">
             <h2>Features to make<br class="d-none d-lg-block" /> DevOps simple</h2>
@@ -382,13 +382,13 @@
               size="lg"
               href="http://app.devbop.com/register"
               target="_blank"
-              >Get Started</b-button
+            >Get Started</b-button
             >
           </b-col>
         </b-row>
         <b-row class="mt-5 p-lg-5">
           <b-col cols="12" lg="4" md="4" sm="4">
-            <b-card class="rounded-lg border-0 card-feature">
+            <b-card class="rounded-lg border-0 card-feature bg-white">
               <b-img
                 alt="feature"
                 class="img-fluid img-feature d-none"
@@ -404,7 +404,7 @@
             </b-card>
           </b-col>
           <b-col cols="12" lg="4" md="4" sm="4">
-            <b-card class="rounded-lg border-0 card-feature">
+            <b-card class="rounded-lg border-0 card-feature bg-white">
               <b-img
                 alt="feature"
                 class="img-fluid img-feature d-none"
@@ -419,7 +419,7 @@
             </b-card>
           </b-col>
           <b-col cols="12" lg="4" md="4" sm="4">
-            <b-card class="rounded-lg border-0 card-feature">
+            <b-card class="rounded-lg border-0 card-feature bg-white">
               <b-img
                 alt="feature"
                 class="img-fluid img-feature d-none"
@@ -437,7 +437,7 @@
         </b-row>
         <b-row class="mt-0 p-lg-5">
           <b-col cols="12" lg="4" md="4" sm="4">
-            <b-card class="rounded-lg border-0 card-feature">
+            <b-card class="rounded-lg border-0 card-feature bg-white">
               <b-img
                 alt="feature"
                 class="img-fluid img-feature d-none"
@@ -453,7 +453,7 @@
             </b-card>
           </b-col>
           <b-col cols="12" lg="4" md="4" sm="4">
-            <b-card class="rounded-lg border-0 card-feature">
+            <b-card class="rounded-lg border-0 card-feature bg-white">
               <b-img
                 alt="feature"
                 class="img-fluid img-feature d-none"
@@ -468,7 +468,7 @@
             </b-card>
           </b-col>
           <b-col cols="12" lg="4" md="4" sm="4">
-            <b-card class="rounded-lg border-0 card-feature">
+            <b-card class="rounded-lg border-0 card-feature bg-white">
               <b-img
                 alt="feature"
                 class="img-fluid img-feature d-none"
@@ -486,14 +486,281 @@
         </b-row>
       </b-container>
     </section>
+    <section class="py-5">
+      <b-container class="py-5">
+        <b-row>
+          <b-col cols="12" md="6" lg="6" sm="12">
+            <h2>Input Application Details<br class="d-none d-lg-block" /> Using a Form</h2>
+          </b-col>
+          <b-col
+            cols="12"
+            md="3"
+            lg="3"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+            <p class="text-muted">
+
+            </p>
+          </b-col>
+          <b-col
+            cols="12"
+            md="3"
+            lg="3"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+            <b-button
+              class="rounded-lg ml-lg-auto text-white"
+              variant="primary"
+              size="lg"
+              href="http://app.devbop.com/register"
+              target="_blank"
+              >Get Started</b-button
+            >
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col cols="12" lg="12" md="12" sm="12">
+            <p class="hero-description">
+              Just fill in the necessary information about your application, and our platform will take care of the rest. This straightforward process eliminates the need for complex scripts or manual configurations, making it easier than ever to get your applications up and running on AWS.
+            </p>
+          </b-col>
+        </b-row>
+        <b-row class="mt-4">
+          <b-col cols="12" lg="12" md="12" sm="12" class="text-center mb-4">
+            <b-img
+              alt="hero image"
+              class="img-fluid"
+              :src="require(`~/assets/img/screenshots/wizard002.png`)"
+            ></b-img>
+          </b-col>
+          <b-col cols="12" lg="12" md="12" sm="12" class="text-center">
+            <b-img
+              alt="hero image"
+              class="img-fluid"
+              :src="require(`~/assets/img/screenshots/wizard003.png`)"
+            ></b-img>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+    <section class="bg-green-light py-5">
+      <b-container class="py-5">
+        <b-row>
+          <b-col cols="12" md="6" lg="6" sm="12">
+            <h2>CI/CD Pipelines<br class="d-none d-lg-block" /> Automatically Created</h2>
+          </b-col>
+          <b-col
+            cols="12"
+            md="3"
+            lg="3"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+            <p class="text-muted">
+
+            </p>
+          </b-col>
+          <b-col
+            cols="12"
+            md="3"
+            lg="3"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+            <b-button
+              class="rounded-lg ml-lg-auto text-white"
+              variant="primary"
+              size="lg"
+              href="http://app.devbop.com/register"
+              target="_blank"
+              >Get Started</b-button
+            >
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col cols="12" lg="12" md="12" sm="12">
+            <p class="hero-description">
+              Once your application details are inputted, our system instantly sets up a robust CI/CD pipeline, eliminating the need for manual configuration. Embrace the efficiency of automation and let our platform handle the complexities of CI/CD pipeline creation
+            </p>
+          </b-col>
+        </b-row>
+        <b-row class="mt-4">
+          <b-col cols="12" lg="12" md="12" sm="12" class="text-center">
+            <b-img
+              alt="hero image"
+              class="img-fluid"
+              :src="require(`~/assets/img/screenshots/cicd001.png`)"
+            ></b-img>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+    <section class="py-5">
+      <b-container class="py-5">
+        <b-row>
+          <b-col cols="12" md="6" lg="6" sm="12">
+            <h2>View Build Details<br class="d-none d-lg-block" /> </h2>
+          </b-col>
+          <b-col
+            cols="12"
+            md="3"
+            lg="3"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+            <p class="text-muted">
+
+            </p>
+          </b-col>
+          <b-col
+            cols="12"
+            md="3"
+            lg="3"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+            <b-button
+              class="rounded-lg ml-lg-auto text-white"
+              variant="primary"
+              size="lg"
+              href="http://app.devbop.com/register"
+              target="_blank"
+              >Get Started</b-button
+            >
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col cols="12" lg="12" md="12" sm="12">
+            <p class="hero-description">
+              Gain full visibility into your build process. Instantly access critical information about build status, logs, and more. Our platform provides a clear, concise view of your build details, ensuring you're always informed and in control.
+            </p>
+          </b-col>
+        </b-row>
+        <b-row class="mt-4">
+          <b-col cols="12" lg="12" md="12" sm="12" class="text-center">
+            <b-img
+              alt="hero image"
+              class="img-fluid"
+              :src="require(`~/assets/img/screenshots/builds002.png`)"
+            ></b-img>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+    <section class="bg-green-light py-5">
+      <b-container class="py-5">
+        <b-row>
+          <b-col cols="12" md="6" lg="6" sm="12">
+            <h2>View Build History<br class="d-none d-lg-block" /> </h2>
+          </b-col>
+          <b-col
+            cols="12"
+            md="3"
+            lg="3"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+            <p class="text-muted">
+
+            </p>
+          </b-col>
+          <b-col
+            cols="12"
+            md="3"
+            lg="3"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+            <b-button
+              class="rounded-lg ml-lg-auto text-white"
+              variant="primary"
+              size="lg"
+              href="http://app.devbop.com/register"
+              target="_blank"
+              >Get Started</b-button
+            >
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col cols="12" lg="12" md="12" sm="12">
+            <p class="hero-description">
+              View a comprehensive record of your past builds, allowing you to review and analyze your deployment history at a glance. Stay informed, learn from the past, and continuously improve your deployment process with our platform.
+            </p>
+          </b-col>
+        </b-row>
+        <b-row class="mt-4">
+          <b-col cols="12" lg="12" md="12" sm="12" class="text-center">
+            <b-img
+              alt="hero image"
+              class="img-fluid"
+              :src="require(`~/assets/img/screenshots/builds001.png`)"
+            ></b-img>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+    <section class="py-5">
+      <b-container class="py-5">
+        <b-row>
+          <b-col cols="12" md="6" lg="6" sm="12">
+            <h2>View all AWS <br class="d-none d-lg-block" /> resources created</h2>
+          </b-col>
+          <b-col
+            cols="12"
+            md="3"
+            lg="3"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+            <p class="text-muted">
+
+            </p>
+          </b-col>
+          <b-col
+            cols="12"
+            md="3"
+            lg="3"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+            <b-button
+              class="rounded-lg ml-lg-auto text-white"
+              variant="primary"
+              size="lg"
+              href="http://app.devbop.com/register"
+              target="_blank"
+              >Get Started</b-button
+            >
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col cols="12" lg="12" md="12" sm="12">
+            <p class="hero-description">
+              Maintain complete oversight of your AWS environment. This tool provides a comprehensive diagram of all your AWS resources, giving you a clear snapshot of your cloud infrastructure.
+            </p>
+          </b-col>
+        </b-row>
+        <b-row class="mt-4">
+          <b-col cols="12" lg="12" md="12" sm="12" class="text-center">
+            <b-img
+              alt="hero image"
+              class="img-fluid"
+              :src="require(`~/assets/img/screenshots/components001.png`)"
+            ></b-img>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
     <div class="bg-section-product">
       <section>
-        <b-container class="pt-5 mt-5 pb-5">
+        <b-container class="pt-5 pb-5">
           <b-row>
             <b-col lg="6" md="6" sm="12">
               <h2>
-                What benefit will <br class="d-none d-lg-block" />
-                you get
+                DevBop allows <br class="d-none d-lg-block" />
+                you to...
               </h2>
               <div class="d-flex flex-column mt-5">
                 <div class="my-1 d-flex flex-row">
@@ -546,23 +813,6 @@
                     />
                   </svg>
                   <p class="ml-2">Gain the confidence to take on more complex projects</p>
-                </div>
-                <div class="my-1 d-flex flex-row">
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32ZM15.6318 19.8961L21.8379 13.4961L20.4021 12.1039L14.8858 17.7926L11.5695 14.6357L10.1905 16.0843L14.2245 19.9243L14.9421 20.6074L15.6318 19.8961Z"
-                      fill="#54BD95"
-                    />
-                  </svg>
-                  <p class="ml-2">Give your customers better pricing estimates and insights</p>
                 </div>
                 <div class="my-1 d-flex flex-row">
                   <svg
