@@ -490,7 +490,7 @@
       <b-container class="py-5">
         <b-row>
           <b-col cols="12" md="6" lg="6" sm="12">
-            <h2>Input Application Details<br class="d-none d-lg-block" /> Using a Form</h2>
+            <h2>Input Application Details<br class="d-none d-lg-block" /> to Launch</h2>
           </b-col>
           <b-col
             cols="12"
