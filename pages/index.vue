@@ -4,7 +4,7 @@
       <b-container class="pt-5">
         <b-row>
           <b-col cols="12" lg="12" md="12" sm="12">
-            <h1 class="text-center" style="line-height: 55px !important">
+            <h1 class="text-center">
               Deploy applications and CI/CD into AWS in minutes
             </h1>
 <!--            <svg-->
