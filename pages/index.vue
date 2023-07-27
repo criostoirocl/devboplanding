@@ -4,7 +4,7 @@
       <b-container class="pt-5">
         <b-row>
           <b-col cols="12" lg="12" md="12" sm="12">
-            <h1 class="text-center">
+            <h1 class="text-center" style="line-height: 55px !important">
               Deploy applications and CI/CD into AWS in minutes
             </h1>
 <!--            <svg-->
@@ -488,9 +488,9 @@
     </section>
     <section class="py-5">
       <b-container class="py-5">
-        <b-row>
+        <b-row class="mb-4">
           <b-col cols="12" md="6" lg="6" sm="12">
-            <h2>Input Application Details<br class="d-none d-lg-block" /> to Launch</h2>
+            <h2>Simply Input Application <br class="d-none d-lg-block" /> Details to Launch</h2>
           </b-col>
           <b-col
             cols="12"
@@ -547,7 +547,7 @@
     </section>
     <section class="bg-green-light py-5">
       <b-container class="py-5">
-        <b-row>
+        <b-row class="mb-3">
           <b-col cols="12" md="6" lg="6" sm="12">
             <h2>CI/CD Pipelines<br class="d-none d-lg-block" /> Automatically Created</h2>
           </b-col>
@@ -599,7 +599,7 @@
     </section>
     <section class="py-5">
       <b-container class="py-5">
-        <b-row>
+        <b-row class="mb-3">
           <b-col cols="12" md="6" lg="6" sm="12">
             <h2>View Build Details<br class="d-none d-lg-block" /> </h2>
           </b-col>
@@ -651,7 +651,7 @@
     </section>
     <section class="bg-green-light py-5">
       <b-container class="py-5">
-        <b-row>
+        <b-row class="mb-3">
           <b-col cols="12" md="6" lg="6" sm="12">
             <h2>View Build History<br class="d-none d-lg-block" /> </h2>
           </b-col>
@@ -703,7 +703,7 @@
     </section>
     <section class="py-5">
       <b-container class="py-5">
-        <b-row>
+        <b-row class="mb-3">
           <b-col cols="12" md="6" lg="6" sm="12">
             <h2>View all AWS <br class="d-none d-lg-block" /> resources created</h2>
           </b-col>
@@ -756,7 +756,7 @@
     <div class="bg-section-product">
       <section>
         <b-container class="pt-5 pb-5">
-          <b-row>
+          <b-row class="mb-3">
             <b-col lg="6" md="6" sm="12">
               <h2>
                 DevBop allows <br class="d-none d-lg-block" />
