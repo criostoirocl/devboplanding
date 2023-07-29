@@ -1419,6 +1419,15 @@ export default {
     BIconGithub,
     BIconGlobe,
   },
+  meta: [
+    { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    {
+      hid: 'description',
+      name: 'description',
+      content: 'Streamline your application deployment. Deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.'
+    }
+  ],
 }
 </script>
 
