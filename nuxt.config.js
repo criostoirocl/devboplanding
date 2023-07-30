@@ -16,17 +16,17 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Saas landing pages design is very important in order to convert visitors into leads or customers [https://uikit.to/saas-landing-pages/]',
+          'Streamline your application deployment. Deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.',
       },
-      {
-        hid: 'og:image',
-        property: 'og:image',
-        content: '/thumb.png',
-      },
+      // {
+      //   hid: 'og:image',
+      //   property: 'og:image',
+      //   content: '/thumb.png',
+      // },
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Saas Landing Page',
+        content: 'DevBop - Deploy applications and CI/CD into AWS in minutes',
       },
       {
         name: 'og:site_name',
@@ -39,10 +39,16 @@ export default {
         hid: 'og:description',
         name: 'og:description',
         content:
-          'Saas landing pages design is very important in order to convert visitors into leads or customers [https://uikit.to/saas-landing-pages/]',
+          'Streamline your application deployment. Deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        src: "https://tools.luckyorange.com/core/lo.js?site-id=16b22b4b",
+        body: true,
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
