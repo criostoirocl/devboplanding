@@ -48,6 +48,12 @@ export default {
         src: "https://tools.luckyorange.com/core/lo.js?site-id=16b22b4b",
         body: true,
       },
+      {
+        src: "https://www.googletagmanager.com/gtag/js?id=G-VPQ5LQDC9H",
+        async: true,
+      },
+      // Import analytics.js file
+      { src: "/js/analytics.js" },
     ],
   },
 
@@ -55,7 +61,9 @@ export default {
   css: [{ src: '~/assets/scss/main.scss', lang: 'scss' }],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -87,6 +95,7 @@ export default {
       },
     ],
   ],
+
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
