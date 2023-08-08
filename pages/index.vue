@@ -5,7 +5,7 @@
         <b-row>
           <b-col cols="12" lg="12" md="12" sm="12">
             <h1 class="text-center">
-              Deploy applications and CI/CD into AWS in minutes
+              Develop Deploy applications and CI/CD into AWS in minutes
             </h1>
 <!--            <svg-->
 <!--              id="hero-stroke"-->
