@@ -200,7 +200,7 @@
                 <div>
                   <h5>Deploy</h5>
                   <p class="text-muted">
-                    Effortlessly deploy infrastructure and code updates. Our platform is designed to streamline your workflow, allowing you to push updates with just a few clicks. Plus, with real-time monitoring features, you can keep track of your deployments and ensure everything runs smoothly.
+                    Effortlessly deploy infrastructure and code updates into your own AWS account. The ease of use of PAAS combined with the control of IAAS. Our platform is designed to streamline your workflow, allowing you to push updates with just a few clicks. Plus, with real-time monitoring features, you can keep track of your deployments and ensure everything runs smoothly.
                   </p>
                 </div>
               </div>
