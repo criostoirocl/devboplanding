@@ -753,7 +753,7 @@
         </b-row>
       </b-container>
     </section>
-    <div class="bg-section-product">
+    <div class="bg-section-product collapse">
       <section>
         <b-container class="pt-5 pb-5">
           <b-row class="mb-3">
@@ -1314,6 +1314,15 @@
         </b-row>
       </b-container>
     </section>
+    <section class="py-5 ">
+      <b-container>
+        <b-row>
+          <b-col>
+            <div class="elfsight-app-7701953d-721d-4da4-b0d7-a85fc8d75aa6"></div>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
     <section class="bg-dark text-white pt-5">
       <b-container>
         <b-row>
@@ -1429,13 +1438,43 @@ export default {
         content: 'Streamline your application deployment. Deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.'
       }
     ],
-  }
+    script: [
+      {
+        src: "https://static.elfsight.com/platform/platform.js"
+      }
+    ]
+  },
+  mounted() {
+    // Create an observer instance
+    let observer = new MutationObserver((mutations) => {
+      let element = document.querySelector('a[href*="https://elfsight.com/contact-form-widget/"]');
+      if (element) {
+        console.log("Element found!");
+        // Hide the element
+        element.style.display = "none";
+      }
+    });
 
+    // Configuration for the observer:
+    let config = { attributes: true, childList: true, subtree: true };
+
+    // Start observing the document with the configured parameters
+    observer.observe(document.body, config);
+  }
 }
 </script>
 
 <style>
 #footer-logo{
   width: 180px;
+}
+
+/*.elfsight-app-7701953d-721d-4da4-b0d7-a85fc8d75aa6 a{*/
+#eapps-contact-form-7701953d-721d-4da4-b0d7-a85fc8d75aa6 a{
+  display: none !important;
+}
+
+a[href*="https://elfsight.com/contact-form-widget/"] {
+  display: none !important;
 }
 </style>
