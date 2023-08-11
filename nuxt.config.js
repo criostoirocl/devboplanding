@@ -85,7 +85,7 @@ export default {
         title: 'DevBop - Deploy applications and CI/CD into AWS in minutes',
         site_name: 'DevBop',
         description:
-          'Streamline your application deployment. Deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.',
+          'Deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.',
         img: 'thumb.png',
         img_size: { width: '800px', height: '600px' },
         locale: 'en_US',
