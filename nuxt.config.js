@@ -3,7 +3,7 @@ export default {
   mode: 'spa',
   target: 'static',
   head: {
-    title: 'DevBop',
+    title: 'DevBop - Deploy applications and CI/CD into AWS in minutes',
     htmlAttrs: {
       lang: 'en',
     },
