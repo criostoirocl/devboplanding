@@ -523,7 +523,7 @@
         <b-row>
           <b-col cols="12" lg="12" md="12" sm="12">
             <p class="hero-description">
-              Just fill in the necessary information about your application, and our platform will take care of the rest. This straightforward process eliminates the need for complex scripts or manual configurations, making it easier than ever to get your applications up and running on AWS.
+              Just fill in the necessary information about your application, and our platform will take care of the rest. This straightforward process eliminates the need for complex scripts or manual configurations, making it easier than ever to get your applications up and running on AWS. Applications are deployed into ECS and databases are deployed into RDS.
             </p>
           </b-col>
         </b-row>
