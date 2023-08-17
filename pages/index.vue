@@ -5,7 +5,7 @@
         <b-row>
           <b-col cols="12" lg="12" md="12" sm="12">
             <h1 class="text-center">
-              Deploy applications and CI/CD into AWS in minutes
+              No-code deploy applications and CI/CD into AWS in minutes
             </h1>
 <!--            <svg-->
 <!--              id="hero-stroke"-->
@@ -25,7 +25,7 @@
 <!--            </svg>-->
 
             <p class="hero-description text-center">
-              Deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.
+              No-code deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.
             </p>
           </b-col>
           <br class="d-none d-sm-block" />
@@ -1430,14 +1430,14 @@ export default {
     BIconGlobe,
   },
   head: {
-    title: "DevBop - Deploy applications and CI/CD into AWS in minutes",
+    title: "DevBop - No-code deploy applications and CI/CD into AWS in minutes",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'Deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.'
+        content: 'No-code deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.'
       }
     ],
     script: [

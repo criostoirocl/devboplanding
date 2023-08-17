@@ -3,7 +3,7 @@ export default {
   mode: 'spa',
   target: 'static',
   head: {
-    title: 'DevBop - Deploy applications and CI/CD into AWS in minutes',
+    title: 'DevBop - No-code deploy applications and CI/CD into AWS in minutes',
     htmlAttrs: {
       lang: 'en',
     },
@@ -16,17 +16,17 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Streamline your application deployment. Deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.',
+          'No-code deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.',
       },
-      // {
-      //   hid: 'og:image',
-      //   property: 'og:image',
-      //   content: '/thumb.png',
-      // },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/thumb.png',
+      },
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'DevBop - Deploy applications and CI/CD into AWS in minutes',
+        content: 'DevBop - No-code deploy applications and CI/CD into AWS in minutes',
       },
       {
         name: 'og:site_name',
@@ -39,7 +39,7 @@ export default {
         hid: 'og:description',
         name: 'og:description',
         content:
-          'Streamline your application deployment. Deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.',
+          'No-code deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -82,14 +82,14 @@ export default {
       'nuxt-social-meta',
       {
         url: '',
-        title: 'DevBop - Deploy applications and CI/CD into AWS in minutes',
+        title: 'DevBop - No-code deploy applications and CI/CD into AWS in minutes',
         site_name: 'DevBop',
         description:
-          'Deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.',
+          'No-code deploy applications into AWS and get a CI/CD pipeline in mere minutes. Reduce manual effort and accelerate your project timelines. Focus on creating, while we handle the complexities of AWS.',
         img: 'thumb.png',
         img_size: { width: '800px', height: '600px' },
         locale: 'en_US',
-        twitter_card: 'DevBop - Deploy applications and CI/CD into AWS in minutes',
+        twitter_card: 'DevBop - No-code deploy applications and CI/CD into AWS in minutes',
         theme_color: '#ffffff',
       },
     ],
