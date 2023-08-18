@@ -706,6 +706,59 @@
       <b-container class="py-5">
         <b-row class="mb-3">
           <b-col cols="12" md="6" lg="6" sm="12">
+            <h2>Deployments using <br class="d-none d-lg-block" /> CloudFormation</h2>
+          </b-col>
+          <b-col
+            cols="12"
+            md="3"
+            lg="3"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+            <p class="text-muted">
+
+            </p>
+          </b-col>
+          <b-col
+            cols="12"
+            md="3"
+            lg="3"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+            <b-button
+              class="rounded-lg ml-lg-auto text-white"
+              variant="primary"
+              size="lg"
+              href="http://app.devbop.com/register"
+              target="_blank"
+              >Get Started</b-button
+            >
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col cols="12" lg="12" md="12" sm="12">
+            <p class="hero-description">
+              Infrastructure is deployed into your AWS account using AWS CloudFormation which means that your infrastructure is completely independent of DevBop and you have full
+              visibility of every single resource that we create on your behalf for full transparency.
+            </p>
+          </b-col>
+        </b-row>
+        <b-row class="mt-4">
+          <b-col cols="12" lg="12" md="12" sm="12" class="text-center">
+            <b-img
+              alt="hero image"
+              class="img-fluid"
+              :src="require(`~/assets/img/screenshots/cloudformation001.png`)"
+            ></b-img>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+    <section class="bg-green-light py-5">
+      <b-container class="py-5">
+        <b-row class="mb-3">
+          <b-col cols="12" md="6" lg="6" sm="12">
             <h2>View all AWS <br class="d-none d-lg-block" /> resources created</h2>
           </b-col>
           <b-col
