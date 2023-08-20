@@ -45,7 +45,8 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       {
-        src: "https://tools.luckyorange.com/core/lo.js?site-id=16b22b4b",
+        // src: "https://tools.luckyorange.com/core/lo.js?site-id=16b22b4b",
+        src: "https://tools.luckyorange.com/core/lo.js?site-id=0160a45a",
         body: true,
       },
       {
